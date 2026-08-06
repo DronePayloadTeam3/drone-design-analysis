@@ -16,7 +16,6 @@
 Design 1 FEA Safety Summary:
 
 Materials passing FEA requirements:
-
  Carbon Fiber Composite (CFRP)
  Aluminum Alloy
  Fiberglass Composite (GFRP)
