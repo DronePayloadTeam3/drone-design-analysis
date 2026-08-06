@@ -20,14 +20,14 @@ Files Included
   - README.md – Project documentation
 
 How to Run the Project
-  1. Open MATLAB.
-  2. Place all project files in the same folder.
-  3. Open DroneDesign.mlx.
-  4. Ensure the following files are in the working directory:
-          - droneArmMaterials.mat
-          - Drone Arm Design 1.STEP
-          - Drone Arm Design 2.STEP
-  5. Click Run to execute the Live Script.
+1. Open MATLAB.
+2. Place all project files in the same folder.
+3. Open DroneDesign.mlx.
+4. Ensure the following files are in the working directory:
+- droneArmMaterials.mat
+- Drone Arm Design 1.STEP
+- Drone Arm Design 2.STEP
+5. Click Run to execute the Live Script.
 
 
 Project Workflow:
