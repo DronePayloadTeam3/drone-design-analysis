@@ -74,7 +74,9 @@ The script will automatically generate:
   - Final design recommendation
 
 
-Final Recommendation
+
+
+Final Recommendation:
 
 
 Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is Design 1: a tapered hollow rectangular arm constructed from Fiberglass Composite (GFRP). It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all the project constraints. 
