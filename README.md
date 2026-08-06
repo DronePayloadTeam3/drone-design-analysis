@@ -31,7 +31,9 @@ How to Run the Project
 
 
 Project Workflow:
+
     1. Load Material Properties
+        
         -  The project loads the density, Young’s modulus, Poisson's ratio, yield strength, and cost for six drone arm materials: Carbon Fiber Composite (CFRP), Aluminum Alloy, Fiberglass Composite             (GFRP), PLA Plastic, ABS Plastic, Wood (Birch)
     2. Thrust-to-Weight Analysis
         - Calculates the mass of each drone arm and determines the maximum payload capacity while checking that each design satisfies the minimum payload of 0.5 kg and minimum thrust-to-weight                 ratio of 2:1. 
