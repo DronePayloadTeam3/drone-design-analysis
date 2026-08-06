@@ -44,10 +44,11 @@ Project Workflow:
 
 Required Software and Toolboxes
 Software:
-  - MATLAB_R2026a 
+- MATLAB_R2026a
+  
 Required Toolboxes:
-  - Partial Differential Equation Toolbox
-  - MATLAB Live Editor
+- Partial Differential Equation Toolbox
+- MATLAB Live Editor
 
 How to Reproduce the Results
 To reproduce the results:
