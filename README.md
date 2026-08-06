@@ -13,20 +13,25 @@ MATLAB is used throughout this project to:
   - Material cost optimization
 
 Files Included
-  - Main MATLAB Live Script
-  - droneArmMaterials.mat – Material properties database
-  - Drone Arm Design 1.STEP – CAD model for FEA
-  - Drone Arm Design 2.STEP –  second CAD model for FEA
-  - README.md – Project documentation
+- DroneDesign_Team3_Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+- droneArmMaterials.mat – Material properties database used throughout the analysis.
+- Design_1_CAD_Model.STEP – CAD model of Design 1 used for finite element analysis (FEA).
+- Design_2_CAD_Model.STL – CAD model of Design 2 used for visualization and design comparison.
+- DroneDesign1_Team3_Analysis.pdf – PDF export of the Design 1 MATLAB analysis for viewing without MATLAB.
+- DroneDesign2_Team3_Analysis.pdf – PDF export of the Design 2 MATLAB analysis for viewing without MATLAB.
+- Design_1_Concept_Sketch.pdf – Concept sketch for the first drone arm design.
+- Design_2_Concept_Sketch.pdf – Concept sketch for the second drone arm design.
+- README.md – Project documentation and usage instructions.
+
 
 How to Run the Project
 1. Open MATLAB.
 2. Place all project files in the same folder.
-3. Open DroneDesign.mlx.
+3. Open DroneDesign_Team3_Analysis.mlx..
 4. Ensure the following files are in the working directory:
 - droneArmMaterials.mat
-- Drone Arm Design 1.STEP
-- Drone Arm Design 2.STEP
+- Design_1_CAD_Model.STEP
+- Design_2_CAD_Model.STL
 5. Click Run to execute the Live Script.
 
 
@@ -52,10 +57,12 @@ Required Toolboxes:
 
 How to Reproduce the Results
 To reproduce the results:
-  - Use the provided droneArmMaterials.mat file.
-  - Use the provided Drone Arm Design 1.STEP CAD model.
-  - Use the provided Drone Arm Design 2.STEP CAD model.
-  - Run the Live Script without modifying the input parameters.
+1. Use the provided droneArmMaterials.mat material properties database.
+2. Use the provided Design_1_CAD_Model.STEP CAD model.
+3. Use the provided Design_2_CAD_Model.STL CAD model.
+4. Open DroneDesign_Team3_Analysis.mlx in MATLAB.
+5. Run the Live Script without modifying the input parameters.
+
 
 The script will automatically generate:
   - Payload summary tables
