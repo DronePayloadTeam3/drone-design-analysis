@@ -62,7 +62,6 @@ Each design folder contains:
 Contains supporting project documentation.
 
 - Team Agreement Form
-- Project Planning Documentation
 - Initial assumptions and constraints
 - Brainstorming and drone design concepts
 
