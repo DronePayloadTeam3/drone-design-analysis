@@ -75,6 +75,8 @@ The script will automatically generate:
 
 
 Final Recommendation
+
+
 Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is Design 1: a tapered hollow rectangular arm constructed from Fiberglass Composite (GFRP). It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all the project constraints. 
 
 Although Carbon Fiber Composite (CFRP) provided the best overall structural performance, GFRP offered a better balance between performance and cost while still meeting all the project requirements. The improvements provided by CFRP were relatively small compared to its increase in material cost. This makes GFRP a more practical engineering choice for this project.
