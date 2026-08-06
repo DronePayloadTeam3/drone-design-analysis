@@ -32,13 +32,13 @@ How to Run the Project
 
 Project Workflow:
     1. Load Material Properties
-The project loads the density, Young’s modulus, Poisson's ratio, yield strength, and cost for six drone arm materials: Carbon Fiber Composite (CFRP), Aluminum Alloy, Fiberglass Composite (GFRP), PLA Plastic, ABS Plastic, Wood (Birch)
+        -  The project loads the density, Young’s modulus, Poisson's ratio, yield strength, and cost for six drone arm materials: Carbon Fiber Composite (CFRP), Aluminum Alloy, Fiberglass Composite             (GFRP), PLA Plastic, ABS Plastic, Wood (Birch)
     2. Thrust-to-Weight Analysis
-Calculates the mass of each drone arm and determines the maximum payload capacity while checking that each design satisfies the minimum payload of 0.5 kg and minimum thrust-to-weight ratio of 2:1. 
+        - Calculates the mass of each drone arm and determines the maximum payload capacity while checking that each design satisfies the minimum payload of 0.5 kg and minimum thrust-to-weight                 ratio of 2:1. 
     3. Finite Element Analysis (FEA)
-Imports the STEP model and generates the finite element mesh. Will analyze the maximum displacement, von mises stress, and factor of safety for each material and display results in a summary table and displacement and stress graphs that can be moved when clicked on. 
+        -  Imports the STEP model and generates the finite element mesh. Will analyze the maximum displacement, von mises stress, and factor of safety for each material and display results in a                 summary table and displacement and stress graphs that can be moved when clicked on. 
     4. Cost Optimization
-After running the thrust-to-weight analysis and Finite Element Analysis (FEA), we calculate the cost of each material based on the design’s volume and length. Based on the results, we filter the options that do not satisfy the project requirements and identify the lowest-cost material.
+        -  After running the thrust-to-weight analysis and Finite Element Analysis (FEA), we calculate the cost of each material based on the design’s volume and length. Based on the results, we                filter the options that do not satisfy the project requirements and identify the lowest-cost material.
 
 
 Required Software and Toolboxes
