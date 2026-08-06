@@ -24,7 +24,7 @@ Through the development and analysis of these designs, the project investigates 
 
 # Repository Structure
 
-## MATLAB/
+## MATLAB
 
 Contains all MATLAB files used throughout the project.
 
@@ -34,7 +34,7 @@ Contains all MATLAB files used throughout the project.
 - droneArmMaterials.mat – Material properties database used throughout the analysis.
 
 
-## Drone CAD Designs/
+## Drone CAD Designs
 
 Contains all CAD models and design sketches.
 
@@ -44,7 +44,7 @@ Contains all CAD models and design sketches.
 - Design_2_Concept_Sketch.pdf
 
 
-## Results/
+## Results
 
 Contains all exported project results organized by drone design.
 
@@ -57,7 +57,7 @@ Each design folder contains:
 - Material cost optimization tables
 
 
-## Documentation/
+## Documentation
 
 Contains supporting project documentation.
 
