@@ -1,4 +1,4 @@
-# Drone-Design-Analysis-Team-3
+# Drone Design Analysis Team 3
 
 MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
