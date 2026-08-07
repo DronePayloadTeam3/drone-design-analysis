@@ -31,7 +31,7 @@ Contains all CAD models and design sketches.
 ### Design-1-Hollow-Tapered-Rectangular-Tube
 * Design_1_Concept_Sketch.pdf 
 * Design_1_CAD_Model.STEP 
-* Visualization_Only_Model.STL 
+* Visualization_Only_Model.STL --- STL export for visual purposes only on GitHub
 
 ### Design-2-Hollow-Truss-Structure
 
