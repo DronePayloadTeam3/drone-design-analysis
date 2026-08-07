@@ -29,9 +29,10 @@ Through the development and analysis of these designs, the project investigates 
 Contains all CAD models and design sketches.
 
 ### Design-1-Hollow-Tapered-Rectangular-Tube
-* Design-1-CAD-Model.STEP
 * Design-1-Concept-Sketch.pdf
-* MODEL FOR VIEWING ONLY.STL
+* Design-1-Visualization-Only-Model.STL
+* Design-1-CAD-Model.STEP
+
 
 ### Design-2-Hollow-Truss-Structure
 
