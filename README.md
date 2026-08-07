@@ -220,4 +220,4 @@ Compared with Design 2, Design 1 demonstrated better structural behavior. Althou
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
 
-A more detailed report of the MATLAB analysis can be found in the accompanying MATLAB Live Script (DroneDesign-Team3-Analysis.mlx).
+A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign-Team3-Analysis.mlx).
