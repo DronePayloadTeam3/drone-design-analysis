@@ -73,9 +73,9 @@ Each design folder contains:
 # How to Download the CAD Files
 
 1. Open the **CAD-Designs** folder.
-2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss_Structure** folder
+2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss-Structure** folder
 3. Select the desired STEP (For Design 1) or STL (For Design 2) file.
-4. Click **Download Raw File** (download icon) in the upper_right corner.
+4. Click **Download Raw File** (download icon) in the upper-right corner.
    -  Alternatively, right-click **Raw** and choose **Save Link As...**
 
 ---
@@ -163,7 +163,7 @@ The results are displayed as summary tables and interactive displacement and str
 
 ## 4. Material Cost Optimization
 
-After completing the thrust_to_weight analysis and FEA, MATLAB calculates the material cost for each design based on the arm geometry and material properties.
+After completing the thrust-to-weight analysis and FEA, MATLAB calculates the material cost for each design based on the arm geometry and material properties.
 
 The program filters materials that satisfy all project constraints and identifies the lowest-cost engineering solution.
 
@@ -209,11 +209,11 @@ All exported figures, tables, and analysis outputs can be found in the **Results
 
 # Final Recommendation
 
-Based on the thrust_to_weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is **Design 1, a tapered hollow rectangular arm** constructed from **Fiberglass Composite (GFRP)**. It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all project constraints.
+Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is **Design 1, a tapered hollow rectangular arm** constructed from **Fiberglass Composite (GFRP)**. It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all project constraints.
 
 Although Carbon Fiber Composite (CFRP) provided the highest overall structural performance, GFRP offered a better balance between performance and cost while still meeting all project requirements. The improvements provided by CFRP were relatively small compared to its increase in material cost, making GFRP the more practical engineering choice.
 
-Additionally, while Wood (Birch) was identified as the lowest_cost material, it was not selected as the final recommendation. Although it satisfied the project requirements under the simplified loading conditions, it was not considered the best choice for real-world drone applications where additional engineering conditions such as wind, vibration, fatigue, and landing impacts must be considered. Furthermore, wood can absorb moisture from the environment, which may reduce structural performance over time while increasing the overall weight of the drone. For these reasons, GFRP was considered the strongest overall engineering solution.
+Additionally, while Wood (Birch) was identified as the lowest-cost material, it was not selected as the final recommendation. Although it satisfied the project requirements under the simplified loading conditions, it was not considered the best choice for real-world drone applications where additional engineering conditions such as wind, vibration, fatigue, and landing impacts must be considered. Furthermore, wood can absorb moisture from the environment, which may reduce structural performance over time while increasing the overall weight of the drone. For these reasons, GFRP was considered the strongest overall engineering solution.
 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
