@@ -16,9 +16,9 @@ Through the development and analysis of these designs, the project investigates 
 
 # MATLAB is used throughout this project to:
 
-- Perform thrust-to-weight analysis
-- Perform Finite Element Analysis (FEA)
-- Perform material cost optimization
+* Perform thrust-to-weight analysis
+* Perform Finite Element Analysis (FEA)
+* Perform material cost optimization
 
 ---
 
@@ -28,27 +28,33 @@ Through the development and analysis of these designs, the project investigates 
 
 Contains all CAD models and design sketches.
 
-- Design_1_CAD_Model.STEP
-- Design_2_CAD_Model.STEP
-- Design_1_Concept_Sketch.pdf
-- Design_2_Concept_Sketch.pdf
+### Design-1-Hollow-Tapered-Rectangular-Tube
+
+* Design_1_CAD_Model.STEP
+* Design-1-Concept-Sketch.pdf
+
+### Design-2-Hollow-Truss-Structure
+
+* Design_2_CAD_Model.STL
+* Design-2-Concept-Sketch.pdf
 
 ## Documentation
 
 Contains supporting project documentation.
 
-- Team Agreement Form
-- Initial assumptions and constraints
-- Brainstorming and drone design concepts
+* Drone-Constraints-Assumptions-and-Design-Ideas.pdf
+* Drone-Payload-Team-3-TOA.pdf
 
 ## MATLAB
 
 Contains all MATLAB files used throughout the project.
 
-- DroneDesign_Team3_Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
-- DroneDesign1_Team3_Analysis.pdf – PDF export of the Design 1 MATLAB analysis.
-- DroneDesign2_Team3_Analysis.pdf – PDF export of the Design 2 MATLAB analysis.
-- droneArmMaterials.mat – Material properties database used throughout the analysis.
+* DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+* Live-Script-PDF-Exports
+
+  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the Design 1 MATLAB analysis.
+  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the Design 2 MATLAB analysis.
+* droneArmMaterials.mat – Material properties database used throughout the analysis.
 
 ## Results
 
@@ -56,18 +62,18 @@ Contains all exported project results organized by drone design.
 
 Each design folder contains:
 
-- Charts
-- FEA plots
-- FEA result tables
-- Maximum payload tables
-- Material cost optimization tables
+* Maximum payload tables and charts
+* Material cost optimization tables and charts
+* FEA plots
+* FEA result tables
+* Face label reference files
 
 ---
 
 # How to Download the CAD Files
 
-1. Open the **Drone CAD Designs** folder.
-2. Select the desired STEP and STL file.
+1. Open the **CAD-Designs** folder.
+2. Select the desired STEP or STL file.
 3. Click **Download Raw File** (download icon) in the upper-right corner.
 4. Alternatively, right-click **Raw** and choose **Save Link As...**
 
@@ -79,16 +85,15 @@ Each design folder contains:
 
 2. Place all project files in the same working folder.
 
-3. Open DroneDesign_Team3_Analysis.mlx.
+3. Open DroneDesign-Team3-Analysis.mlx.
 
 4. Ensure the following files are located in the working directory:
-- droneArmMaterials.mat
-- Design_1_CAD_Model.STEP
-- Design_2_CAD_Model.STL
 
-6. Open **DroneDesign_Team3_Analysis.mlx**.
+* droneArmMaterials.mat
+* Design_1_CAD_Model.STEP
+* Design_2_CAD_Model.STL
 
-7. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
+5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
 To switch between the two drone arm designs, locate the STEP file assignment in the Live Script.
 
@@ -118,12 +123,12 @@ Only one design should remain uncommented before running the script.
 
 Loads the density, Young's modulus, Poisson's ratio, yield strength, and material cost for:
 
-- Carbon Fiber Composite (CFRP)
-- Aluminum Alloy
-- Fiberglass Composite (GFRP)
-- PLA Plastic
-- ABS Plastic
-- Wood (Birch)
+* Carbon Fiber Composite (CFRP)
+* Aluminum Alloy
+* Fiberglass Composite (GFRP)
+* PLA Plastic
+* ABS Plastic
+* Wood (Birch)
 
 ---
 
@@ -131,8 +136,8 @@ Loads the density, Young's modulus, Poisson's ratio, yield strength, and materia
 
 Calculates the mass of each drone arm and determines the maximum payload capacity while verifying that each design satisfies:
 
-- Minimum payload requirement of **0.5 kg**
-- Minimum thrust-to-weight ratio of **2:1**
+* Minimum payload requirement of **0.5 kg**
+* Minimum thrust-to-weight ratio of **2:1**
 
 ---
 
@@ -142,13 +147,14 @@ Imports the selected STEP or STL model into MATLAB.
 
 The script then:
 
-- Generates the finite element mesh
-- Applies boundary conditions
-- Applies motor thrust and motor weight
-- Computes:
-  - Maximum displacement
-  - Von Mises stress
-  - Factor of Safety
+* Generates the finite element mesh
+* Applies boundary conditions
+* Applies motor thrust and motor weight
+* Computes:
+
+  * Maximum displacement
+  * Von Mises stress
+  * Factor of Safety
 
 The results are displayed as summary tables and interactive displacement and stress plots.
 
@@ -164,14 +170,14 @@ The program filters materials that satisfy all project constraints and identifie
 
 # Required Software
 
-- MATLAB R2026a
+* MATLAB R2026a
 
 ---
 
 # Required Toolboxes
 
-- Partial Differential Equation Toolbox
-- MATLAB Live Editor
+* Partial Differential Equation Toolbox
+* MATLAB Live Editor
 
 ---
 
@@ -181,20 +187,20 @@ To reproduce the project results:
 
 1. Use the provided **droneArmMaterials.mat** database.
 2. Use the provided CAD models.
-3. Open **DroneDesign_Team3_Analysis.mlx**.
-4. Select either Design 1 or Design 2 by commenting/uncommenting the corresponding STEP file.
+3. Open **DroneDesign-Team3-Analysis.mlx**.
+4. Select either Design 1 or Design 2 by commenting/uncommenting the corresponding CAD file.
 5. Run the Live Script without modifying any input parameters.
 
 The Live Script automatically generates:
 
-- Payload summary tables
-- Maximum payload comparison charts
-- Material cost comparison charts
-- FEA displacement plots
-- Von Mises stress plots
-- FEA results tables
-- Material cost optimization tables
-- Final design recommendation
+* Payload summary tables
+* Maximum payload comparison charts
+* Material cost comparison charts
+* FEA displacement plots
+* Von Mises stress plots
+* FEA results tables
+* Material cost optimization tables
+* Final design recommendation
 
 All exported figures, tables, and analysis outputs can be found in the **Results** folder, organized separately for Design 1 and Design 2.
 
