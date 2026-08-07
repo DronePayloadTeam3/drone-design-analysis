@@ -30,8 +30,8 @@ Contains all CAD models and design sketches.
 
 ### Design-1-Hollow-Tapered-Rectangular-Tube
 * Design-1-Concept-Sketch.pdf 
-* Design-1-CAD-Model.STEP 
-* Design-1-Visualization-Only-Model.STL 
+* Design_1_CAD_Model.STEP 
+* Visualization-Only-Model.STL 
 
 ### Design-2-Hollow-Truss-Structure
 
@@ -92,8 +92,8 @@ Each design folder contains:
 4. Ensure the following files are located in the working directory:
 
 * droneArmMaterials.mat
-* Design-1-CAD-Model.STEP
-* Design-2-CAD-Model.STL
+* Design_1_CAD_Model.STEP
+* Design_2_CAD_Model.STL
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
