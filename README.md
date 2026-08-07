@@ -51,8 +51,8 @@ Contains all MATLAB files used throughout the project.
 
 * Live-Script-PDF-Exports
 
-  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the Design 1 MATLAB analysis.
-  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the Design 2 MATLAB analysis.
+  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 1.
+  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 2.
 * DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
 
 * droneArmMaterials.mat – Material properties database used throughout the analysis.
@@ -219,3 +219,5 @@ Additionally, while Wood (Birch) was identified as the lowest-cost material, it 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
+
+A more detailed report of the MATLAB analysis can be found in the accompanying MATLAB Live Script (DroneDesign-Team3-Analysis.mlx).
