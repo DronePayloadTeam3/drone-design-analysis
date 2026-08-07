@@ -30,12 +30,12 @@ Contains all CAD models and design sketches.
 
 ### Design-1-Hollow-Tapered-Rectangular-Tube
 
-* Design_1_CAD_Model.STL
+* Design-1-CAD-Model.STL
 * Design-1-Concept-Sketch.pdf
 
 ### Design-2-Hollow-Truss-Structure
 
-* Design_2_CAD_Model.STL
+* Design-2-CAD-Model.STL
 * Design-2-Concept-Sketch.pdf
 
 ## Documentation
@@ -90,8 +90,8 @@ Each design folder contains:
 4. Ensure the following files are located in the working directory:
 
 * droneArmMaterials.mat
-* Design_1_CAD_Model.STL
-* Design_2_CAD_Model.STL
+* Design-1-CAD-Model.STL
+* Design-2-CAD-Model.STL
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
@@ -143,7 +143,7 @@ Calculates the mass of each drone arm and determines the maximum payload capacit
 
 ## 3. Finite Element Analysis (FEA)
 
-Imports the selected STEP or STL model into MATLAB.
+Imports the selected STL model into MATLAB.
 
 The script then:
 
