@@ -145,7 +145,7 @@ Calculates the mass of each drone arm and determines the maximum payload capacit
 
 ## 3. Finite Element Analysis (FEA)
 
-Imports the selected STL model into MATLAB.
+Imports the selected STL or STEP model into MATLAB.
 
 The script then:
 
