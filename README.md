@@ -1,8 +1,8 @@
 # Drone-Design-Analysis-Team-3
 
-MATLAB_based UAV arm design and optimization project using CAD modeling, thrust_to_weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
+MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
-This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust_to_weight analysis, and finite element analysis (FEA) to optimize UAV drone arm performance.
+This project was completed as part of the MathWorks Classroom Challenge and demonstrates the application of CAD modeling, MATLAB programming, thrust-to-weight analysis, and finite element analysis (FEA) to optimize UAV drone arm performance.
 
 ---
 
