@@ -30,7 +30,7 @@ Contains all CAD models and design sketches.
 
 ### Design-1-Hollow-Tapered-Rectangular-Tube
 * Design-1-CAD-Model.STEP
-* Design-1-CAD-Model.STL (For viewing purposes) 
+* Design-1-CAD-Model.STL ###(For viewing purposes)
 * Design-1-Concept-Sketch.pdf
 
 ### Design-2-Hollow-Truss-Structure
