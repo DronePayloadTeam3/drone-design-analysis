@@ -74,9 +74,10 @@ Each design folder contains:
 # How to Download the CAD Files
 
 1. Open the **CAD-Designs** folder.
-2. Select the desired STEP or STL file.
-3. Click **Download Raw File** (download icon) in the upper-right corner.
-4. Alternatively, right-click **Raw** and choose **Save Link As...**
+2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss-Structure** folder
+3. Select the desired STEP (For Design 1) or STL (For Design 2) file.
+4. Click **Download Raw File** (download icon) in the upper-right corner.
+   -  Alternatively, right-click **Raw** and choose **Save Link As...**
 
 ---
 
