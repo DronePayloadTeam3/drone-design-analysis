@@ -24,17 +24,7 @@ Through the development and analysis of these designs, the project investigates 
 
 # Repository Structure
 
-## MATLAB
-
-Contains all MATLAB files used throughout the project.
-
-- DroneDesign_Team3_Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
-- DroneDesign1_Team3_Analysis.pdf – PDF export of the Design 1 MATLAB analysis.
-- DroneDesign2_Team3_Analysis.pdf – PDF export of the Design 2 MATLAB analysis.
-- droneArmMaterials.mat – Material properties database used throughout the analysis.
-
-
-## Drone CAD Designs
+## CAD-Designs
 
 Contains all CAD models and design sketches.
 
@@ -43,6 +33,22 @@ Contains all CAD models and design sketches.
 - Design_1_Concept_Sketch.pdf
 - Design_2_Concept_Sketch.pdf
 
+## Documentation
+
+Contains supporting project documentation.
+
+- Team Agreement Form
+- Initial assumptions and constraints
+- Brainstorming and drone design concepts
+
+## MATLAB
+
+Contains all MATLAB files used throughout the project.
+
+- DroneDesign_Team3_Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+- DroneDesign1_Team3_Analysis.pdf – PDF export of the Design 1 MATLAB analysis.
+- DroneDesign2_Team3_Analysis.pdf – PDF export of the Design 2 MATLAB analysis.
+- droneArmMaterials.mat – Material properties database used throughout the analysis.
 
 ## Results
 
@@ -55,15 +61,6 @@ Each design folder contains:
 - FEA result tables
 - Maximum payload tables
 - Material cost optimization tables
-
-
-## Documentation
-
-Contains supporting project documentation.
-
-- Team Agreement Form
-- Initial assumptions and constraints
-- Brainstorming and drone design concepts
 
 ---
 
