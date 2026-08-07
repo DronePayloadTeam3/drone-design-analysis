@@ -132,7 +132,7 @@ Loads the density, Young's modulus, Poisson's ratio, yield strength, and materia
 * ABS Plastic
 * Wood (Birch)
 
----
+
 
 ## 2. Thrust-to-Weight Analysis
 
@@ -141,7 +141,7 @@ Calculates the mass of each drone arm and determines the maximum payload capacit
 * Minimum payload requirement of **0.5 kg**
 * Minimum thrust-to-weight ratio of **2:1**
 
----
+
 
 ## 3. Finite Element Analysis (FEA)
 
@@ -160,7 +160,7 @@ The script then:
 
 The results are displayed as summary tables and interactive displacement and stress plots.
 
----
+
 
 ## 4. Material Cost Optimization
 
