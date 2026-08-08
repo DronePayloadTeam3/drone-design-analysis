@@ -1,4 +1,4 @@
-# Drone-Design-Analysis-Team-3
+# Drone Design Analysis Team 3
 
 MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
@@ -31,7 +31,7 @@ Contains all CAD models and design sketches.
 ### Design-1-Hollow-Tapered-Rectangular-Tube
 * Design_1_Concept_Sketch.pdf 
 * Design_1_CAD_Model.STEP 
-* Visualization_Only_Model.STL 
+* Visualization_Only_Model.STL --- STL export for visual purposes only on GitHub
 
 ### Design-2-Hollow-Truss-Structure
 
@@ -42,20 +42,19 @@ Contains all CAD models and design sketches.
 
 Contains supporting project documentation.
 
-* Drone-Constraints-Assumptions-and-Design-Ideas.pdf
-* Drone-Payload-Team-3-TOA.pdf
+* Drone_Constraints_Assumptions_and_Design_Ideas.pdf
+* Drone_Payload_Team_3_TOA.pdf
 
 ## MATLAB
 
 Contains all MATLAB files used throughout the project.
 
 * Live-Script-PDF-Exports
+  * Design_1_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 1.
+  * Design_2_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 2.
+* DroneDesign_Team3_Analysis.mlx --- Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
 
-  * Design-1-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 1.
-  * Design-2-Live-Script-Analysis-Export.pdf – PDF export of the MATLAB analysis using Design 2.
-* DroneDesign-Team3-Analysis.mlx – Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
-
-* droneArmMaterials.mat – Material properties database used throughout the analysis.
+* droneArmMaterials.mat --- Material properties database used throughout the analysis.
 
 ## Results
 
@@ -87,7 +86,7 @@ Each design folder contains:
 
 2. Place all project files in the same working folder.
 
-3. Open DroneDesign-Team3-Analysis.mlx.
+3. Open DroneDesign_Team3_Analysis.mlx.
 
 4. Ensure the following files are located in the working directory:
 
@@ -189,7 +188,7 @@ To reproduce the project results:
 
 1. Use the provided **droneArmMaterials.mat** database.
 2. Use the provided CAD models.
-3. Open **DroneDesign-Team3-Analysis.mlx**.
+3. Open **DroneDesign_Team3_Analysis.mlx**.
 4. Select either Design 1 or Design 2 by commenting/uncommenting the corresponding CAD file.
 5. Run the Live Script without modifying any input parameters.
 
@@ -220,4 +219,4 @@ Compared with Design 2, Design 1 demonstrated better structural behavior. Althou
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
 
-A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign-Team3-Analysis.mlx).
+A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign_Team3_Analysis.mlx).
