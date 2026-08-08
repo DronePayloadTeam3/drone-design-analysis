@@ -50,14 +50,14 @@ Contains supporting project documentation.
 
 Contains all MATLAB files used throughout the project.
 
+* DroneDesign_Team3_Analysis.mlx --- Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+
+* droneArmMaterials.mat --- Material properties database used throughout the analysis.
+
 * Live-Script-PDF-Exports
 
   * Design_1_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 1.
   * Design_2_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 2.
-
-* DroneDesign_Team3_Analysis.mlx --- Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
-
-* droneArmMaterials.mat --- Material properties database used throughout the analysis.
 
 ## Results
 
