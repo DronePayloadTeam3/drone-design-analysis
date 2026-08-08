@@ -43,7 +43,7 @@ Contains all CAD models and design sketches.
 
 Contains supporting project documentation.
 
-* [Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx) — Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during development.
+* [Drone_Design_Constraints_Assumptions_and_Ideas.xlsx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Ideas.xlsx) — Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during development.
 * [Drone_Payload_Team_3_TOA.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf) — Team agreement documenting the project's organization, responsibilities, and project expectations.
 
 ## [MATLAB](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/MATLAB)
@@ -96,9 +96,9 @@ An example of the exported FEA results is shown below for Design 1 using Fibergl
 
 4. Ensure the following files are available at their corresponding repository locations:
 
-* [droneArmMaterials.mat](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/droneArmMaterials.mat)
-* [Design_1_CAD_Model.STEP](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD-Designs/Design-1-Hollow-Tapered-Rectangular-Tube/Design_1_CAD_Model.STEP)
-* [Design_2_CAD_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD-Designs/Design-2-Hollow-Truss-Structure/Design_2_CAD_Model.STL)
+  * [droneArmMaterials.mat](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/droneArmMaterials.mat)
+  * [Design_1_CAD_Model.STEP](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD-Designs/Design-1-Hollow-Tapered-Rectangular-Tube/Design_1_CAD_Model.STEP)
+  * [Design_2_CAD_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD-Designs/Design-2-Hollow-Truss-Structure/Design_2_CAD_Model.STL)
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
@@ -234,7 +234,7 @@ The final recommendation considers quantitative performance, structural safety, 
 
 * [MathWorks Classroom Challenge Project Hub: Drone Payload Capacity and Structural Design Analysis](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Drone%20Payload%20Capacity%20and%20Structural%20Design%20Analysis) — Original MathWorks Classroom Challenge project page containing the project challenge and associated project information.
 
-* [Drone Design Constraints, Assumptions, and Ideas](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx) — Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
+* [Drone Design Constraints, Assumptions, and Ideas](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Ideas.xlsx) — Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
 
 * [Drone Payload Team 3 Team Agreement](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf) — Team agreement documenting the project's organization, responsibilities, and project expectations.
 
