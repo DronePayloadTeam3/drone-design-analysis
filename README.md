@@ -24,13 +24,6 @@ Through the development and analysis of these designs, the project investigates 
 
 # Repository Structure
 
-## [Documentation](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Documentation)
-
-Contains supporting project documentation.
-
-* [Drone_Constraints_Assumptions_and_Design_Ideas.xlsx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Constraints_Assumptions_and_Design_Ideas.xlsx) --- Contains the initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
-* [Drone_Payload_Team_3_TOA.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf) --- Team agreement documenting the project's organization, responsibilities, and project expectations.
-
 ## [CAD-Designs](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/CAD_Designs)
 
 Contains all CAD models and design sketches.
@@ -39,90 +32,43 @@ Contains all CAD models and design sketches.
 
 * [Design_1_CAD_Model.STEP](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Design_1_CAD_Model.STEP)
 * [Design_1_Concept_Sketch.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Design_1_Concept_Sketch.pdf)
-* [Visualization_Only_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Visualization_Only_Model.STL) --- STL export provided for visualization purposes only on GitHub.
+* [Visualization_Only_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Visualization_Only_Model.STL) --- STL export for visual purposes only on GitHub
 
 ### [Design-2-Hollow-Truss-Structure](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/CAD_Designs/Design_2_Hollow_Truss_Structure)
 
 * [Design_2_CAD_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_2_Hollow_Truss_Structure/Design_2_CAD_Model.STL)
 * [Design_2_Concept_Sketch.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_2_Hollow_Truss_Structure/Design_2_Concept_Sketch.pdf)
 
+## [Documentation](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Documentation)
+
+Contains supporting project documentation.
+
+* [Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx)
+* [Drone_Payload_Team_3_TOA.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf)
+
 ## [MATLAB](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/MATLAB)
 
 Contains all MATLAB files used throughout the project.
 
 * [DroneDesign_Team3_Analysis.mlx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/DroneDesign_Team3_Analysis.mlx) --- Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
+
 * [droneArmMaterials.mat](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/droneArmMaterials.mat) --- Material properties database used throughout the analysis.
 
-### [Live-Script-PDF-Exports](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/MATLAB/Live_Script_PDF_Exports)
+* [Live_Script_PDF_Exports](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/MATLAB/Live_Script_PDF_Exports)
 
-Contains PDF exports of the MATLAB analysis for each drone arm design.
-
-* [Design_1_Live_Script_Analysis_Export.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/Live_Script_PDF_Exports/Design_1_Live_Script_Analysis_Export.pdf) --- PDF export of the MATLAB analysis using Design 1.
-* [Design_2_Live_Script_Analysis_Export.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/Live_Script_PDF_Exports/Design_2_Live_Script_Analysis_Export.pdf) --- PDF export of the MATLAB analysis using Design 2.
+  * [Design_1_Live_Script_Analysis_Export.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/Live_Script_PDF_Exports/Design_1_Live_Script_Analysis_Export.pdf) --- PDF export of the MATLAB analysis using Design 1.
+  * [Design_2_Live_Script_Analysis_Export.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/Live_Script_PDF_Exports/Design_2_Live_Script_Analysis_Export.pdf) --- PDF export of the MATLAB analysis using Design 2.
 
 ## [Results](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results)
 
 Contains all exported project results organized by drone design.
 
-### [Design 1](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_1)
-
-Contains the analysis results for Design 1.
-
-* [Maximum Payload Capacity](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_1/Maximum_Payload_Capacity)
-
-  * [Design_1_Maximum_Payload_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/Maximum_Payload_Capacity/Design_1_Maximum_Payload_Table.txt)
-  * [Design_1_Maximum_Payload_Capacity_Chart.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/Maximum_Payload_Capacity/Design_1_Maximum_Payload_Capacity_Chart.pdf)
-
-* [Material Cost Optimization](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_1/Material_Cost_Optimization)
-
-  * [Design_1_Material_Cost_Optimization_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/Material_Cost_Optimization/Design_1_Material_Cost_Optimization_Table.txt)
-  * [Design_1_Material_Cost_Optimization_Chart.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/Material_Cost_Optimization/Design_1_Material_Cost_Optimization_Chart.pdf)
-
-* [FEA Analysis](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_1/FEA_Analysis)
-
-  * [Design_1_FEA_Results_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_FEA_Results_Table.txt)
-  * [Design_1_ABS_Plastic_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_ABS_Plastic_FEA_Results.pdf)
-  * [Design_1_Aluminum_Alloy_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_Aluminum_Alloy_FEA_Results.pdf)
-  * [Design_1_Carbon_Fiber_Composite_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_Carbon_Fiber_Composite_FEA_Results.pdf)
-  * [Design_1_Fiberglass_Composite_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_Fiberglass_Composite_FEA_Results.pdf)
-  * [Design_1_PLA_Plastic_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_PLA_Plastic_FEA_Results.pdf)
-  * [Design_1_Wood_Birch_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_Wood_Birch_FEA_Results.pdf)
-  * [Design_1_Drone_Arm_Face_Labels.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_1/FEA_Analysis/Design_1_Drone_Arm_Face_Labels.pdf)
-
-### [Design 2](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_2)
-
-Contains the analysis results for Design 2.
-
-* [Maximum Payload Capacity](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_2/Maximum_Payload_Capacity)
-
-  * [Design_1_Maximum_Payload_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/Maximum_Payload_Capacity/Design_1_Maximum_Payload_Table.txt)
-  * [Design_1_Maximum_Payload_Capacity_Chart.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/Maximum_Payload_Capacity/Design_1_Maximum_Payload_Capacity_Chart.pdf)
-
-* [Material Cost Optimization](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_2/Material_Cost_Optimization)
-
-  * [Design_1_Material_Cost_Optimization_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/Material_Cost_Optimization/Design_1_Material_Cost_Optimization_Table.txt)
-  * [Design_1_Material_Cost_Optimization_Chart.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/Material_Cost_Optimization/Design_1_Material_Cost_Optimization_Chart.pdf)
-
-* [FEA Analysis](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_2/FEA_Analysis)
-
-  * [Design_1_FEA_Results_Table.txt](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_FEA_Results_Table.txt)
-  * [Design_1_ABS_Plastic_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_ABS_Plastic_FEA_Results.pdf)
-  * [Design_1_Aluminum_Alloy_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_Aluminum_Alloy_FEA_Results.pdf)
-  * [Design_1_Carbon_Fiber_Composite_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_Carbon_Fiber_Composite_FEA_Results.pdf)
-  * [Design_1_Fiberglass_Composite_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_Fiberglass_Composite_FEA_Results.pdf)
-  * [Design_1_PLA_Plastic_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_PLA_Plastic_FEA_Results.pdf)
-  * [Design_1_Wood_Birch_FEA_Results.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_Wood_Birch_FEA_Results.pdf)
-  * [Design_1_Drone_Arm_Face_Labels.pdf](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/Design_2/FEA_Analysis/Design_1_Drone_Arm_Face_Labels.pdf)
-
-### [README-Results](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/README-Results)
-
-Contains images used within the main README.
-
-* [Design_1_Fiberglass_Composite_FEA_Results.png](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/README-Results/Design_1_Fiberglass_Composite_FEA_Results.png)
+* [Design 1 Results](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_1) --- Contains maximum payload capacity, material cost optimization, and FEA results for Design 1.
+* [Design 2 Results](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/Results/Design_2) --- Contains maximum payload capacity, material cost optimization, and FEA results for Design 2.
 
 An example of the exported FEA results is shown below for Design 1 using Fiberglass Composite (GFRP):
 
-![Design 1 Fiberglass Composite FEA Results](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Results/README-Results/Design_1_Fiberglass_Composite_FEA_Results.png)
+![Design 1 Fiberglass Composite FEA Results](Results/README-Results/Design_1_Fiberglass_Composite_FEA_Results.png)
 
 ---
 
@@ -130,7 +76,7 @@ An example of the exported FEA results is shown below for Design 1 using Fibergl
 
 1. Open the [CAD-Designs](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/CAD_Designs) folder.
 2. Open the [Design-1-Hollow-Tapered-Rectangular-Tube](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube) or [Design-2-Hollow-Truss-Structure](https://github.com/DronePayloadTeam3/drone-design-analysis/tree/main/CAD_Designs/Design_2_Hollow_Truss_Structure) folder.
-3. Select the desired STEP file for Design 1 or STL file for Design 2.
+3. Select the desired STEP (for Design 1) or STL (for Design 2) file.
 4. Click **Download Raw File** (download icon) in the upper-right corner.
 
    * Alternatively, right-click **Raw** and choose **Save Link As...**
@@ -143,13 +89,13 @@ An example of the exported FEA results is shown below for Design 1 using Fibergl
 
 2. Place all project files in the same working folder.
 
-3. Open [`DroneDesign_Team3_Analysis.mlx`](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/DroneDesign_Team3_Analysis.mlx).
+3. Open `DroneDesign_Team3_Analysis.mlx`.
 
 4. Ensure the following files are located in the working directory:
 
-* [`droneArmMaterials.mat`](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/droneArmMaterials.mat)
-* [`Design_1_CAD_Model.STEP`](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Design_1_CAD_Model.STEP)
-* [`Design_2_CAD_Model.STL`](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_2_Hollow_Truss_Structure/Design_2_CAD_Model.STL)
+* `droneArmMaterials.mat`
+* `Design_1_CAD_Model.STEP`
+* `Design_2_CAD_Model.STL`
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
@@ -285,7 +231,7 @@ The final recommendation considers quantitative performance, structural safety, 
 
 * [MathWorks Classroom Challenge Project Hub: Drone Payload Capacity and Structural Design Analysis](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Drone%20Payload%20Capacity%20and%20Structural%20Design%20Analysis) --- Original MathWorks Classroom Challenge project page containing the project challenge and associated project information.
 
-* [Drone Design Constraints, Assumptions, and Ideas](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Constraints_Assumptions_and_Design_Ideas.xlsx) --- Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
+* [Drone Design Constraints, Assumptions, and Ideas](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Design_Ideas.xlsx) --- Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
 
 * [Drone Payload Team 3 Team Agreement](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf) --- Team agreement documenting the project's organization, responsibilities, and project expectations.
 
@@ -296,6 +242,14 @@ The final recommendation considers quantitative performance, structural safety, 
 For any questions regarding this repository or how to run the project, please contact the team at:
 
 **[boulaetans@gmail.com](mailto:boulaetans@gmail.com)**
+
+---
+
+# License
+
+This project is distributed under the license included in the repository.
+
+See the [LICENSE](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/LICENSE) file for the full license terms.
 
 ---
 
@@ -310,5 +264,4 @@ Additionally, while Wood (Birch) was identified as the lowest-cost material, it 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
-
 A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (`DroneDesign_Team3_Analysis.mlx`).
