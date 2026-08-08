@@ -89,13 +89,13 @@ An example of the exported FEA results is shown below for Design 1 using Fibergl
 
 2. Place all project files in the same working folder.
 
-3. Open `DroneDesign_Team3_Analysis.mlx`.
+3. Open the [DroneDesign_Team3_Analysis.mlx](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/DroneDesign_Team3_Analysis.mlx) Live Script.
 
 4. Ensure the following files are located in the working directory:
 
-* `droneArmMaterials.mat`
-* `Design_1_CAD_Model.STEP`
-* `Design_2_CAD_Model.STL`
+* [droneArmMaterials.mat](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/MATLAB/droneArmMaterials.mat)
+* [Design_1_CAD_Model.STEP](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_1_Hollow_Tapered_Rectangular_Tube/Design_1_CAD_Model.STEP)
+* [Design_2_CAD_Model.STL](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/CAD_Designs/Design_2_Hollow_Truss_Structure/Design_2_CAD_Model.STL)
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
@@ -123,10 +123,10 @@ The Live Script automatically generates:
 
 * Payload summary tables
 * Maximum payload comparison charts
-* Material cost comparison charts
 * FEA displacement plots
 * Von Mises stress plots
 * FEA results tables
+* Material cost comparison charts
 * Material cost optimization tables
 * Final design recommendation
 
