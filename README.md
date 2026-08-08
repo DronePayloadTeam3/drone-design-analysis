@@ -43,7 +43,7 @@ Contains all CAD models and design sketches.
 
 Contains supporting project documentation.
 
-* Drone_Constraints_Assumptions_and_Design_Ideas.pdf
+* Drone_Design_Constraints_Assumptions_and_Ideas.xlsx
 * Drone_Payload_Team_3_TOA.pdf
 
 ## MATLAB
@@ -71,18 +71,16 @@ Each design folder contains:
 * FEA result tables
 * Face label reference files
 
-An example of the exported FEA results is shown below for Design 1 using Fiberglass Composite (GFRP): 
-
+An example of the exported FEA results is shown below for Design 1 using Fiberglass Composite (GFRP):
 ![Design 1 Fiberglass Composite FEA Results](Results/README-Results/Design_1_Fiberglass_Composite_FEA_Results.png)
-
 
 ---
 
 # CAD Download Instructions
 
 1. Open the **CAD-Designs** folder.
-2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss-Structure** folder
-3. Select the desired STEP (For Design 1) or STL (For Design 2) file.
+2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss-Structure** folder.
+3. Select the desired STEP (for Design 1) or STL (for Design 2) file.
 4. Click **Download Raw File** (download icon) in the upper-right corner.
 
    * Alternatively, right-click **Raw** and choose **Save Link As...**
@@ -233,6 +231,24 @@ The final recommendation considers quantitative performance, structural safety, 
 
 ---
 
+# References
+
+* [MathWorks Classroom Challenge Project Hub: Drone Payload Capacity and Structural Design Analysis](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Drone%20Payload%20Capacity%20and%20Structural%20Design%20Analysis) --- Original MathWorks Classroom Challenge project page containing the project challenge and associated project information.
+
+* [Drone Design Constraints, Assumptions, and Ideas](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Design_Constraints_Assumptions_and_Ideas.xlsx) --- Supporting project document containing initial drone design constraints, assumptions, material information, and related design resources used during the development of the project.
+
+* [Drone Payload Team 3 Team Agreement](https://github.com/DronePayloadTeam3/drone-design-analysis/blob/main/Documentation/Drone_Payload_Team_3_TOA.pdf) --- Team agreement documenting the project's organization, responsibilities, and project expectations.
+
+---
+
+# Contact
+
+For any questions regarding this repository or how to run the project, please contact the team at:
+
+**[boulaetans@gmail.com](mailto:boulaetans@gmail.com)**
+
+---
+
 # Final Recommendation
 
 Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is **Design 1, a tapered hollow rectangular arm** constructed from **Fiberglass Composite (GFRP)**. It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all project constraints.
@@ -245,4 +261,4 @@ Compared with Design 2, Design 1 demonstrated better structural behavior. Althou
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
 
-A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign_Team3_Analysis.mlx).
+A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (`DroneDesign_Team3_Analysis.mlx`).
