@@ -1,4 +1,4 @@
-# Drone Design Analysis Team 3
+# Solution to Classroom Challenge Project — Drone Payload Capacity and Structural Design Analysis — Team 3
 
 MATLAB-based UAV arm design and optimization project using CAD modeling, thrust-to-weight analysis, finite element analysis (FEA), and material cost optimization to evaluate structural performance and payload capacity.
 
@@ -29,14 +29,15 @@ Through the development and analysis of these designs, the project investigates 
 Contains all CAD models and design sketches.
 
 ### Design-1-Hollow-Tapered-Rectangular-Tube
-* Design_1_Concept_Sketch.pdf 
-* Design_1_CAD_Model.STEP 
+
+* Design_1_Concept_Sketch.pdf
+* Design_1_CAD_Model.STEP
 * Visualization_Only_Model.STL --- STL export for visual purposes only on GitHub
 
 ### Design-2-Hollow-Truss-Structure
 
-* Design_2_Concept_Sketch.pdf 
-* Design_2_CAD_Model.STL 
+* Design_2_Concept_Sketch.pdf
+* Design_2_CAD_Model.STL
 
 ## Documentation
 
@@ -50,8 +51,10 @@ Contains supporting project documentation.
 Contains all MATLAB files used throughout the project.
 
 * Live-Script-PDF-Exports
+
   * Design_1_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 1.
   * Design_2_Live_Script_Analysis_Export.pdf --- PDF export of the MATLAB analysis using Design 2.
+
 * DroneDesign_Team3_Analysis.mlx --- Main MATLAB Live Script containing the complete drone design, analysis, and optimization workflow.
 
 * droneArmMaterials.mat --- Material properties database used throughout the analysis.
@@ -68,129 +71,59 @@ Each design folder contains:
 * FEA result tables
 * Face label reference files
 
+An example of the exported FEA results is shown below for Design 1 using Fiberglass Composite (GFRP): 
+
+![Design 1 Fiberglass Composite FEA Results](Results/README-Results/Design_1_Fiberglass_Composite_FEA_Results.png)
+
+
 ---
 
-# How to Download the CAD Files
+# CAD Download Instructions
 
 1. Open the **CAD-Designs** folder.
 2. Open the **Design-1-Hollow-Tapered-Rectangular-Tube** or **Design-2-Hollow-Truss-Structure** folder
 3. Select the desired STEP (For Design 1) or STL (For Design 2) file.
 4. Click **Download Raw File** (download icon) in the upper-right corner.
-   -  Alternatively, right-click **Raw** and choose **Save Link As...**
+
+   * Alternatively, right-click **Raw** and choose **Save Link As...**
 
 ---
 
-# How to Run the Project
+# Project Solution Instructions
 
 1. Open MATLAB.
 
 2. Place all project files in the same working folder.
 
-3. Open DroneDesign_Team3_Analysis.mlx.
+3. Open `DroneDesign_Team3_Analysis.mlx`.
 
 4. Ensure the following files are located in the working directory:
 
-* droneArmMaterials.mat
-* Design_1_CAD_Model.STEP
-* Design_2_CAD_Model.STL
+* `droneArmMaterials.mat`
+* `Design_1_CAD_Model.STEP`
+* `Design_2_CAD_Model.STL`
 
 5. Select which drone arm design you would like to analyze during **Task 4: Finite Element Analysis (FEA)**.
 
-To switch between the two drone arm designs, locate the STEP file assignment in the Live Script.
+   To switch between the two drone arm designs, locate the design selection in the Live Script.
 
-For Design 1:
+   **For Design 1:**
 
-```matlab
-selectedDesign = "Design 1";
-% selectedDesign = "Design 2";
-```
+   ```matlab
+   selectedDesign = "Design 1";
+   % selectedDesign = "Design 2";
+   ```
 
-For Design 2:
+   **For Design 2:**
 
-```matlab
-% selectedDesign = "Design 1";
-selectedDesign = "Design 2";
-```
+   ```matlab
+   % selectedDesign = "Design 1";
+   selectedDesign = "Design 2";
+   ```
 
-Only one design should remain uncommented before running the script.
+   Only one design should remain uncommented before running the script. Design 1 is selected by default, as it is the final recommended design for this project.
 
 6. Click **Run**.
-
----
-
-# Project Workflow
-
-## 1. Load Material Properties
-
-Loads the density, Young's modulus, Poisson's ratio, yield strength, and material cost for:
-
-* Carbon Fiber Composite (CFRP)
-* Aluminum Alloy
-* Fiberglass Composite (GFRP)
-* PLA Plastic
-* ABS Plastic
-* Wood (Birch)
-
-
-
-## 2. Thrust-to-Weight Analysis
-
-Calculates the mass of each drone arm and determines the maximum payload capacity while verifying that each design satisfies:
-
-* Minimum payload requirement of **0.5 kg**
-* Minimum thrust-to-weight ratio of **2:1**
-
-
-
-## 3. Finite Element Analysis (FEA)
-
-Imports the selected STL or STEP model into MATLAB.
-
-The script then:
-
-* Generates the finite element mesh
-* Applies boundary conditions
-* Applies motor thrust and motor weight
-* Computes:
-
-  * Maximum displacement
-  * Von Mises stress
-  * Factor of Safety
-
-The results are displayed as summary tables and interactive displacement and stress plots.
-
-
-
-## 4. Material Cost Optimization
-
-After completing the thrust-to-weight analysis and FEA, MATLAB calculates the material cost for each design based on the arm geometry and material properties.
-
-The program filters materials that satisfy all project constraints and identifies the lowest-cost engineering solution.
-
----
-
-# Required Software
-
-* MATLAB R2026a
-
----
-
-# Required Toolboxes
-
-* Partial Differential Equation Toolbox
-* MATLAB Live Editor
-
----
-
-# How to Reproduce the Results
-
-To reproduce the project results:
-
-1. Use the provided **droneArmMaterials.mat** database.
-2. Use the provided CAD models.
-3. Open **DroneDesign_Team3_Analysis.mlx**.
-4. Select either Design 1 or Design 2 by commenting/uncommenting the corresponding CAD file.
-5. Run the Live Script without modifying any input parameters.
 
 The Live Script automatically generates:
 
@@ -207,6 +140,99 @@ All exported figures, tables, and analysis outputs can be found in the **Results
 
 ---
 
+# Project Workflow
+
+## 1. Gather Assumptions and Load Material Properties
+
+Defines the drone design assumptions, component masses, thrust capacity, and project constraints, then loads the material properties used throughout the analysis.
+
+The analysis considers six materials:
+
+* Carbon Fiber Composite (CFRP)
+* Aluminum Alloy
+* Fiberglass Composite (GFRP)
+* PLA Plastic
+* ABS Plastic
+* Wood (Birch)
+
+The project parameters include:
+
+* Quadcopter configuration with four motors and four propellers
+* Maximum thrust of **1 kg per motor**
+* Base drone mass of **1 kg**, excluding arms and payload
+* Minimum payload requirement of **0.5 kg**
+* Minimum thrust-to-weight ratio of **2:1**
+* Four drone arms
+
+Material properties used in the analysis include density, Young's modulus, Poisson's ratio, yield strength, and average material cost.
+
+## 2. Propose Two Drone Arm Designs
+
+Develops and compares two distinct drone arm geometries through CAD models and design sketches.
+
+**Design 1** is a tapered hollow rectangular tube designed to strategically reduce material toward the motor mount while maintaining greater structural reinforcement near the drone body connection.
+
+**Design 2** is a hollow truss-shaped structure designed to reduce mass while providing additional structural reinforcement through internal truss members.
+
+The two designs are evaluated based on their geometry, volume, structural behavior, and suitability for the required loading conditions.
+
+## 3. Perform Thrust-to-Weight Analysis
+
+Calculates the maximum payload capacity for each combination of drone arm design and material.
+
+The analysis evaluates both arm geometries across all six material options and determines whether each combination satisfies:
+
+* Minimum payload requirement of **0.5 kg**
+* Minimum thrust-to-weight ratio of **2:1**
+
+The results are presented using summary tables and payload comparison plots.
+
+## 4. Perform Finite Element Analysis (FEA)
+
+Performs a structural finite element analysis on a single drone arm for the selected design.
+
+The model:
+
+* Imports the corresponding CAD geometry into MATLAB
+* Generates a finite element mesh
+* Fixes the arm at the attachment point to the drone body
+* Applies the upward motor thrust and downward motor weight to the motor mounting face
+* Evaluates the arm using all six material options
+
+The analysis calculates:
+
+* Maximum displacement
+* Maximum Von Mises stress
+* Factor of Safety
+
+The results are presented using numerical summary tables and displacement and Von Mises stress visualizations.
+
+## 5. Optimize Material Cost
+
+Uses the results from the thrust-to-weight analysis and FEA to identify material options that satisfy the required payload, thrust-to-weight ratio, and Factor of Safety requirements.
+
+The total material cost is then calculated for each material option based on the arm geometry, material cost, and four-arm configuration. The valid material options are compared to identify the lowest-cost solution while considering structural performance and engineering practicality.
+
+## 6. Recommend a Final Design Solution
+
+Interprets the results from the thrust-to-weight analysis, FEA, and material cost optimization to select the final drone arm geometry and material.
+
+The final recommendation considers quantitative performance, structural safety, material cost, manufacturability, and practical engineering limitations.
+
+---
+
+# Required Software
+
+* MATLAB R2026a
+
+---
+
+# Required Toolboxes
+
+* Partial Differential Equation Toolbox
+
+---
+
 # Final Recommendation
 
 Based on the thrust-to-weight analysis, Finite Element Analysis (FEA), and material cost optimization, the recommended design is **Design 1, a tapered hollow rectangular arm** constructed from **Fiberglass Composite (GFRP)**. It provides the best balance of payload capacity, structural safety, and engineering performance while satisfying all project constraints.
@@ -218,5 +244,4 @@ Additionally, while Wood (Birch) was identified as the lowest-cost material, it 
 Compared with Design 2, Design 1 demonstrated better structural behavior. Although Design 2 met the project requirements, it experienced greater maximum displacement. Through investigation, it was determined that the truss members primarily reinforced the x- and y-directions but provided limited resistance in the z-direction. This reduced the arm's resistance to vertical bending and likely contributed to the higher displacement. Rather than redesigning the arm, the team chose to retain the original design because it demonstrates the engineering design process. The results highlighted how analysis, testing, and iteration lead to improved engineering decisions and provide valuable lessons for future designs.
 
 Overall, Design 1 with GFRP provided the best combination of payload capacity, structural integrity, manufacturability, and material cost. Future work could expand this analysis by incorporating wind loading, vibration, fatigue, landing impacts, motor torque, and experimental prototype testing to better represent real operating conditions.
-
 A more detailed report of the final design recommendation, including the MATLAB-based analysis, FEA results, and optimization process, can be found in the accompanying MATLAB Live Script (DroneDesign_Team3_Analysis.mlx).
